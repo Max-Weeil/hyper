@@ -20,12 +20,19 @@ body{
 }
 #cabecera
 {
-    background: #33c;
+    background: url ("../imagenes/imagen.jpeg")contain;
+    background: #37488b;
+    box-shadow: 0px 2px 20px 0px rgba(0,0,0,0.5);
     color: azure;
     margin: 0;
     padding: 0.5em;
     border: 15px;
+    padding: 0.5em 0 0.5em 2em;
 
+}
+#cabecera #logo{
+width: 20px;
+vertical-align: 0.5em;
 }
 #container h1{
     font-size: 20px;
@@ -36,5 +43,6 @@ body{
     margin: 0;
     padding: 0;
     border: 10 px;
+    background-color: white;
 
 }
